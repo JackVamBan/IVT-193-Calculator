@@ -114,15 +114,11 @@ namespace Calculator
                     textBox1.Text = b.ToString();
                     break;
                 case 5:
-<<<<<<< HEAD
                     b = (a + float.Parse(textBox1.Text))/2;
                     textBox1.Text = b.ToString();
                     break;
                 case 6:
                     b = a * a;
-=======
-                    b = (a + float.Parse(textBox1.Text)) / 2;
->>>>>>> a5ea95e639966addcbf6a1ed1058529982b020e6
                     textBox1.Text = b.ToString();
                     break;
 
@@ -171,17 +167,8 @@ namespace Calculator
 
         private void button19_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             calculate();
             label1.Text = "";
-=======
-<<<<<<<< HEAD:Calculator/Calculator/Form1.cs
-           
-========
-            calculate();
-            label1.Text = "";
->>>>>>>> a5ea95e639966addcbf6a1ed1058529982b020e6:Calculator/Form1.cs
->>>>>>> a5ea95e639966addcbf6a1ed1058529982b020e6
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -197,34 +184,21 @@ namespace Calculator
 
         private void button20_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:Calculator/Calculator/Form1.cs
-           
-========
->>>>>>> a5ea95e639966addcbf6a1ed1058529982b020e6
             a = float.Parse(textBox1.Text);
             textBox1.Clear();
             count = 5;
             label1.Text = a.ToString() + " и ";
             znak = true;
-<<<<<<< HEAD
-=======
->>>>>>>> a5ea95e639966addcbf6a1ed1058529982b020e6:Calculator/Form1.cs
->>>>>>> a5ea95e639966addcbf6a1ed1058529982b020e6
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-                a = float.Parse(textBox1.Text);
-                textBox1.Clear();
-                count = 6;
-                label1.Text = a.ToString() + " ^2";
-                znak = true;
-=======
-              
->>>>>>> a5ea95e639966addcbf6a1ed1058529982b020e6
+            a = float.Parse(textBox1.Text);
+            textBox1.Clear();
+            label1.Text = a.ToString() + " ^2";
+            znak = true;
+            b = a * a;
+            textBox1.Text = b.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -114,7 +114,11 @@ namespace Calculator
                     textBox1.Text = b.ToString();
                     break;
                 case 5:
-                    b = (a + float.Parse(textBox1.Text)) / 2;
+                    b = (a + float.Parse(textBox1.Text))/2;
+                    textBox1.Text = b.ToString();
+                    break;
+                case 6:
+                    b = a * a;
                     textBox1.Text = b.ToString();
                     break;
 
@@ -189,7 +193,11 @@ namespace Calculator
 
         private void button21_Click(object sender, EventArgs e)
         {
-              
+                a = float.Parse(textBox1.Text);
+                textBox1.Clear();
+                count = 6;
+                label1.Text = a.ToString() + " ^2";
+                znak = true;
         }
 
         private void button2_Click(object sender, EventArgs e)

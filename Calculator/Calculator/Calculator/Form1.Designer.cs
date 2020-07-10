@@ -1,6 +1,6 @@
 ﻿namespace Calculator
 {
-    partial class calculator
+    partial class Form1
     {
         /// <summary>
         /// Требуется переменная конструктора.
